@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strident.Core", "Strident.Core\Strident.Core.csproj", "{0BFF1F97-E714-4567-8AF2-2E0C42F287CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strident.UI", "Strident.UI\Strident.UI.csproj", "{18299405-8A2F-4152-BD45-064A60CA7108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0BFF1F97-E714-4567-8AF2-2E0C42F287CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BFF1F97-E714-4567-8AF2-2E0C42F287CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BFF1F97-E714-4567-8AF2-2E0C42F287CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18299405-8A2F-4152-BD45-064A60CA7108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18299405-8A2F-4152-BD45-064A60CA7108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18299405-8A2F-4152-BD45-064A60CA7108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18299405-8A2F-4152-BD45-064A60CA7108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
