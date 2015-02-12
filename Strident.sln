@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strident.Core", "Strident.Core\Strident.Core.csproj", "{0BFF1F97-E714-4567-8AF2-2E0C42F287CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strident.UI", "Strident.UI\Strident.UI.csproj", "{18299405-8A2F-4152-BD45-064A60CA7108}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BFF1F97-E714-4567-8AF2-2E0C42F287CE} = {0BFF1F97-E714-4567-8AF2-2E0C42F287CE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strident.Core
 {
-    interface INoiseGenerator
+    public interface INoiseGenerator
     {
         double noiseAt(double x, double y);
 

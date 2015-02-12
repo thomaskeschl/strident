@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strident.Core
 {
-    class NoiseGeneratorFactory
+    public class NoiseGeneratorFactory
     {
         public INoiseGenerator createSimplexGenerator() {
             return new SimplexNoiseGenerator();

@@ -1,8 +1,9 @@
 ﻿<Window x:Class="Strident.UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="256" Width="256">
     <Grid>
-        
+        <Image x:Name="image" HorizontalAlignment="Left" Height="256" VerticalAlignment="Top" Width="256"/>
+
     </Grid>
 </Window>
